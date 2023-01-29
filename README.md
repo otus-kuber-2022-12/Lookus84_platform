@@ -512,7 +512,4 @@ Rules:
 Annotations:  nginx.ingress.kubernetes.io/rewrite-target: /
 Events:       <none>
 
-
-
-
- 
+kind delete cluster
