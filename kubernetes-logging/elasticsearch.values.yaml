@@ -1,0 +1,37 @@
+master:
+  replicaCount: 3
+  nodeSelector: &nodeSelector
+    yandex.cloud/node-group-id: catsmep3537dpast19ae
+
+  tolerations: &tolerations
+    - key: node-role
+      operator: Equal
+      value: infra
+      effect: NoSchedule
+
+data:
+  replicaCount: 3
+  nodeSelector:
+    *nodeSelector
+  tolerations:
+    *tolerations
+
+coordinating:
+  replicaCount: 3
+  nodeSelector:
+    *nodeSelector
+  tolerations:
+    *tolerations
+
+ingest:
+  replicaCount: 3
+  nodeSelector:
+    *nodeSelector
+  tolerations:
+    *tolerations
+
+metrics:
+  nodeSelector:
+    *nodeSelector
+  tolerations:
+    *tolerations
