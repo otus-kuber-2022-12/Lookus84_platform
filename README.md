@@ -1,3 +1,4 @@
+
 Лекция №2: Знакомство с Kubernetes, основные понятия и архитектура // ДЗ
 
 kubernetes-intro
@@ -3558,9 +3559,4 @@ fluxctl policy -w microservices-demo:helmrelease/frontend --tag-all='semver:~0.1
     принудительно инициировать сканирование Registry на предмет наличия свежих Docker образов
 
 fluxctl release --workload=microservicesdemo:helmrelease/frontend --update-all-images
-
-
-
-
-
 
