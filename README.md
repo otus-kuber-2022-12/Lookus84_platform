@@ -3560,5 +3560,3 @@ fluxctl policy -w microservices-demo:helmrelease/frontend --tag-all='semver:~0.1
 
 fluxctl release --workload=microservicesdemo:helmrelease/frontend --update-all-images
 
-
-
