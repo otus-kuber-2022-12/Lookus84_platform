@@ -1,0 +1,17 @@
+cloud_id                 = "b1g0g9jct4g64jqokd8b"
+folder_id                = "b1gf0t46quh91ma3q0m1"
+zone                     = "ru-central1-a"
+image_id                 = "exampleexampleexample"
+public_key_path          = "~/.ssh/id_rsa.pub"
+subnet_id                = "e9bmlk8v6q1ggh0iv0m8"
+service_account_key_file = "key.json"
+private_key_path         = "~/.ssh/id_rsa"
+network_id               = "enp67lv83b2vf4bjd1fu"
+service_account_id       = "aje4mkkkmtnektkhf0kp"
+cluster_name             = "k8s-otus"
+token                    = "y0_AgAAAAAD1X6BAATuwQAAAADbjKyLTns27ql3R7mZvnrTWpP-NSRKvns"
+k8s_version              = "1.24"
+auto_scale_initial       =  3
+auto_scale_min           =  1
+auto_scale_max           =  3
+disk_type                = "network-hdd"
